@@ -16,17 +16,17 @@
           </v-card-title>
         <v-list-item>
           <v-list-item-content>
-            <v-btn @click="currentPage = 'home', drawer = false" color="blue">Home</v-btn>
+            <v-btn @click="currentPage = 'home', drawer = false" color="blue" style="width: 90%;">Home</v-btn>
           </v-list-item-content>
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-btn @click="currentPage = 'about', drawer = false" color="blue">Sobre o Partido</v-btn>
+            <v-btn @click="currentPage = 'about', drawer = false" color="blue" style="width: 90%;">Sobre o Partido</v-btn>
           </v-list-item-content>
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-btn  @click="currentPage = 'contact', drawer = false" color="blue">Proposta de Governo</v-btn>
+            <v-btn  @click="currentPage = 'contact', drawer = false" color="blue" style="width: 90%;">Proposta de Governo</v-btn>
           </v-list-item-content>
         </v-list-item>
       </v-list>

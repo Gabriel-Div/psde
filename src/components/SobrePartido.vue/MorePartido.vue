@@ -9,7 +9,8 @@
                     class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div class="lg:pr-4">
                         <div class="lg:max-w-lg">
-                            <p class="text-base font-semibold leading-7 text-indigo-600">Saiba mais sobre nossa historia</p>
+                            <p class="text-base font-semibold leading-7 text-indigo-600">Saiba mais sobre nossa historia
+                            </p>
                             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Oque é PSDE?
                             </h1>
                             <p class="mt-6 text-xl leading-8 text-gray-700">O PSDE busca transformar o Brasil em um país
@@ -23,8 +24,7 @@
                 <div
                     class="relative -ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                     <img class="w-[48rem] justify-self-center  max-w-auto max-h-100vh rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                        src="../../images/12.webp"
-                        alt="Imagem do PSDE">
+                        src="../../images/12.webp" alt="Imagem do PSDE">
                 </div>
                 <div
                     class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -92,5 +92,3 @@ export default {
 
 }
 </script>
-
-<style></style>

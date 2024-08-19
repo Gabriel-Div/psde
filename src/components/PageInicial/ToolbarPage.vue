@@ -9,11 +9,14 @@
       <v-spacer></v-spacer>
     </v-app-bar>
 
-    <v-navigation-drawer color="blue" v-model="drawer" app temporary>
+    <v-navigation-drawer color="blue" class="bg-gradient-to-bl from-sky-500 to-indigo-500" v-model="drawer" app
+      temporary>
       <v-list color="rgb(35, 65, 147)" class="rounded-b-lg">
-          <v-card-title class="bg-sky-600 w-2/4 flex justify-center ml-15 mb-3  rounded-md">
-            MENU
-          </v-card-title>
+        <v-card-title @click="drawer = false"
+          class="bg-sky-500 w-2/4 flex justify-center ml-5 mb-3  max-h-15 rounded-md">
+          <v-app-bar-nav-icon class="justify-start" @click="drawer = false" />
+          MENU
+        </v-card-title>
         <v-list-item>
           <v-list-item-content>
             <v-btn @click="currentPage = 'home', drawer = false" color="blue" style="width: 90%;">Home</v-btn>
@@ -21,12 +24,14 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-btn @click="currentPage = 'about', drawer = false" color="blue" style="width: 90%;">Sobre o Partido</v-btn>
+            <v-btn @click="currentPage = 'about', drawer = false" color="blue" style="width: 90%;">Sobre o
+              Partido</v-btn>
           </v-list-item-content>
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-btn  @click="currentPage = 'contact', drawer = false" color="blue" style="width: 90%;">Proposta de Governo</v-btn>
+            <v-btn @click="currentPage = 'contact', drawer = false" color="blue" style="width: 90%;">Proposta de
+              Governo</v-btn>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -62,27 +67,14 @@ export default {
 </script>
 
 <style>
-.nav-enter-active, .nav-leave-active {
+.nav-enter-active,
+.nav-leave-active {
   transition: opacity 0.5s;
 }
 
-.nav-enter, .nav-leave-to {
+.nav-enter,
+.nav-leave-to {
   opacity: 0;
-}
-
-
-.text-menu {
-  font-size: 70px,
-}
-
-.menu {
-  margin-left: 20px;
-  width: 85%;
-  height: 40px;
-  border-radius: 10px;
-  background-color: navy;
-  text-align: center;
-  color: rgb(235, 235, 232);
 }
 
 .icon {
@@ -96,9 +88,5 @@ export default {
   border-radius: 10px;
   margin-left: 30px;
   margin-top: 40px;
-}
-
-teste {
-  background-color: rgb(88, 86, 175);
 }
 </style>

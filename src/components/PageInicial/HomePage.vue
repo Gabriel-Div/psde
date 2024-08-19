@@ -9,7 +9,7 @@ import InfoPage from './InfoPage.vue';
 
 export default {
     components: {
-    'app-v-conteiner': InfoPage,
+        'app-v-conteiner': InfoPage,
     },
 }
 </script>

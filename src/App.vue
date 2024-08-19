@@ -3,7 +3,6 @@
     <v-app>
       <app-v-toolbar></app-v-toolbar>
       <v-spacer></v-spacer>
-      
       <v-spacer></v-spacer>
     </v-app>
   </div>
